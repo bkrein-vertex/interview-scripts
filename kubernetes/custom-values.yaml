@@ -1,0 +1,19 @@
+replicaCount: "1"
+
+image:
+  tag: 10.0.3
+
+ui:
+  color: '#ff0000'
+   message: Dummy test web page
+
+hpa:
+  enabled: true
+  cpu: 90
+  maxReplicas: 3
+
+service:
+  type: NodePort
+
+ingress:
+  enabled: false
