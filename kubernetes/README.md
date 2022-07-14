@@ -4,8 +4,8 @@
 
    - Use the chart in the local `podinfo/` subdirectory
    - Use the `custom-values.yaml`
-   - Use the release name `interview`
-   - Use the namespace `interview` (create if necessary)
+   - Use the release name `interview-podinfo`
+   - Use the namespace `interview-podinfo` (create if necessary)
 
 2. Fix deployment issues & show troubleshooting
 3. Scale the `interview` deployment up to 2 replicas
